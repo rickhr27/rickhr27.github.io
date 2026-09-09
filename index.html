@@ -3,92 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haoran (Rick) Sun - Portfolio[span_0](start_span)[span_0](end_span)</title>
+    <title>Haoran (Rick) Sun - Portfolio</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 900px;
+            max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: #f8f9fa;
         }
         header {
             background-color: #2c3e50;
             color: #fff;
-            padding: 40px 20px;
+            padding: 35px 20px;
             text-align: center;
             border-radius: 8px;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
         }
-        h1 { margin: 0 0 10px 0; font-size: 2.5em; }
-        h2 { color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 5px; margin-top: 30px; }
-        .contact-info a { color: #18bc9c; text-decoration: none; margin: 0 10px; }
+        h1 { margin: 0 0 10px 0; font-size: 2em; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 5px; margin-top: 25px; }
+        .contact-info { margin-top: 10px; font-size: 0.95em; }
+        .contact-info a { color: #18bc9c; text-decoration: none; margin: 0 5px; }
         .section-card {
             background: #fff;
-            padding: 20px 30px;
+            padding: 20px 25px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.05);
             margin-bottom: 20px;
         }
-        .job-title { font-weight: bold; font-size: 1.1em; }
+        .job-title { font-weight: bold; font-size: 1.1em; color: #2c3e50; }
         .date-location { font-style: italic; color: #7f8c8d; font-size: 0.9em; margin-bottom: 10px; }
-        ul { margin-top: 10px; padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        ul { margin-top: 8px; padding-left: 20px; }
+        li { margin-bottom: 6px; }
+        .skills-grid { display: grid; grid-template-columns: 1fr; gap: 15px; }
+        @media (min-width: 600px) {
+            .skills-grid { grid-template-columns: 1fr 1fr; }
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Haoran (Rick) Sun[span_1](start_span)[span_1](end_span)</h1>
-        <p>Analytical and detail-oriented Year 3 Statistics undergraduate at The University of Hong Kong[span_2](start_span)[span_2](end_span)</p>
+        <h1>Haoran (Rick) Sun</h1>
+        <p>Analytical and detail-oriented Year 3 Statistics undergraduate at The University of Hong Kong</p>
         <div class="contact-info">
-            <a href="mailto:rick.sun26@connect.hku.hk">rick.sun26@connect.hku.hk[span_3](start_span)[span_3](end_span)</a> | 
-            <span>+852 9504 3828[span_4](start_span)[span_4](end_span)</span> | 
-            <a href="https://www.linkedin.com/in/haoran-rick-sun/" target="_blank">LinkedIn Profile[span_5](start_span)[span_5](end_span)</a>
+            <a href="mailto:rick.sun26@connect.hku.hk">rick.sun26@connect.hku.hk</a> | 
+            <span>+852 9504 3828</span> | 
+            <a href="https://www.linkedin.com/in/haoran-rick-sun/" target="_blank">LinkedIn Profile</a>
         </div>
     </header>
 
     <div class="section-card">
         <h2>Professional Profile</h2>
-        <p>Seeking to apply technical skills to financial market analysis and contribute to strategic consulting[span_6](start_span)[span_6](end_span).</p>
+        <p>Seeking to apply technical skills to financial market analysis and contribute to strategic consulting.</p>
     </div>
 
     <div class="section-card">
         <h2>Education</h2>
-        <div class="job-title">Bachelor of Science in Statistics[span_7](start_span)[span_7](end_span)</div>
-        <div class="date-location">The University of Hong Kong | Hong Kong | 2024-2028[span_8](start_span)[span_8](end_span)</div>
+        <div class="job-title">Bachelor of Science in Statistics</div>
+        <div class="date-location">The University of Hong Kong | Hong Kong | 2024-2028</div>
         <ul>
-            <li><strong>Relevant Coursework:</strong> Biostatistics, Advanced Statistical Inference, Quantitative Modeling, Stochastic Processes, Analytical Tools[span_9](start_span)[span_9](end_span).</li>
-            <li><strong>Awards:</strong> Reaching Out Award (HKSAR Government, 2024)[span_10](start_span)[span_10](end_span).</li>
+            <li><strong>Relevant Coursework:</strong> Biostatistics, Advanced Statistical Inference, Quantitative Modeling, Stochastic Processes, Analytical Tools.</li>
+            <li><strong>Awards:</strong> Reaching Out Award (HKSAR Government, 2024).</li>
         </ul>
     </div>
 
     <div class="section-card">
         <h2>Experience & Research</h2>
         
-        <div class="job-title">Research Experience[span_11](start_span)[span_11](end_span)</div>
-        <div class="date-location">(Conceptual Replication) Identification of High-Power Transcriptomic Prognostic Biomarkers in Hepatocellular Carcinoma | July 2026-Present[span_12](start_span)[span_12](end_span)</div>
+        <div class="job-title">Research Experience</div>
+        <div class="date-location">(Conceptual Replication) Identification of High-Power Transcriptomic Prognostic Biomarkers in Hepatocellular Carcinoma | July 2026-Present</div>
         <ul>
-            <li>Applied predictive modeling and survival analysis techniques in R to evaluate complex datasets, translating advanced statistical metrics into structured reports[span_13](start_span)[span_13](end_span).</li>
+            <li>Applied predictive modeling and survival analysis techniques in R to evaluate complex datasets, translating advanced statistical metrics into structured reports.</li>
         </ul>
 
-        <div class="job-title">Program Associate[span_14](start_span)[span_14](end_span)</div>
-        <div class="date-location">HKU Summer Institute | Hong Kong | June 2025-August 2025[span_15](start_span)[span_15](end_span)</div>
+        <div style="margin-top: 15px;" class="job-title">Program Associate</div>
+        <div class="date-location">HKU Summer Institute | Hong Kong | June 2025-August 2025</div>
         <ul>
-            <li>Coordinated end-to-end logistics and operations for summer programs, ensuring seamless execution of daily schedules, class operations, and large-scale events[span_16](start_span)[span_16](end_span).</li>
-            <li>Managed classroom operations and attendance tracking, maintaining high operational standards and resolving live logistical issues under tight schedules[span_17](start_span)[span_17](end_span).</li>
-            <li>Delivered client-facing communications and support, addressing queries from students and instructors to maintain high participant satisfaction[span_18](start_span)[span_18](end_span).</li>
+            <li>Coordinated end-to-end logistics and operations for summer programs, ensuring seamless execution of daily schedules, class operations, and large-scale events.</li>
+            <li>Managed classroom operations and attendance tracking, maintaining high operational standards and resolving live logistical issues under tight schedules.</li>
+            <li>Delivered client-facing communications and support, addressing queries from students and instructors to maintain high participant satisfaction.</li>
         </ul>
 
-        <div class="job-title">Volunteering Member, CoPe Division[span_19](start_span)[span_19](end_span)</div>
-        <div class="date-location">Centre of Development and Resources for Students (CEDARS), HKU | Hong Kong | September 2024 - June 2026[span_20](start_span)[span_20](end_span)</div>
+        <div style="margin-top: 15px;" class="job-title">Volunteering Member, CoPe Division</div>
+        <div class="date-location">Centre of Development and Resources for Students (CEDARS), HKU | Hong Kong | September 2024 - June 2026</div>
         <ul>
-            <li>Facilitated peer support and transition initiatives for students with Special Educational Needs (SEN), fostering an inclusive environment and accelerating academic adaptation[span_21](start_span)[span_21](end_span).</li>
-            <li>Organize and conduct 1-on-1 and group engagement meetings, delivering tailored guidance and effective communication to address student needs[span_22](start_span)[span_22](end_span).</li>
-            <li>Collaborate on mapping campus accessibility infrastructure, analyzing facility data to co-design comprehensive accessibility maps for HKU[span_23](start_span)[span_23](end_span).</li>
+            <li>Facilitated peer support and transition initiatives for students with Special Educational Needs (SEN), fostering an inclusive environment and accelerating academic adaptation.</li>
+            <li>Organize and conduct 1-on-1 and group engagement meetings, delivering tailored guidance and effective communication to address student needs.</li>
+            <li>Collaborate on mapping campus accessibility infrastructure, analyzing facility data to co-design comprehensive accessibility maps for HKU.</li>
         </ul>
     </div>
 
@@ -96,18 +100,18 @@
         <h2>Technical & Language Skills</h2>
         <div class="skills-grid">
             <div>
-                <h3>Technical Proficiencies</h3>
+                <strong style="color: #2c3e50;">Technical Proficiencies</strong>
                 <ul>
-                    <li><strong>Programming & Analytics:</strong> Python, R, SQL, VBA, Regression Analysis, Stochastic Process[span_24](start_span)[span_24](end_span).</li>
-                    <li><strong>Software & Presentation:</strong> PowerPoint (Pitch Decks), Graph Pad, Claude, Anaconda, Antigravity[span_25](start_span)[span_25](end_span).</li>
+                    <li><strong>Programming & Analytics:</strong> Python, R, SQL, VBA, Regression Analysis, Stochastic Process.</li>
+                    <li><strong>Software & Presentation:</strong> PowerPoint (Pitch Decks), Graph Pad, Claude, Anaconda, Antigravity.</li>
                 </ul>
             </div>
             <div>
-                <h3>Languages</h3>
+                <strong style="color: #2c3e50;">Languages</strong>
                 <ul>
-                    <li>English (Bilingual Advanced)[span_26](start_span)[span_26](end_span)</li>
-                    <li>Mandarin Chinese (Native)[span_27](start_span)[span_27](end_span)</li>
-                    <li>Cantonese (Intermediate)[span_28](start_span)[span_28](end_span)</li>
+                    <li>English (Bilingual Advanced)</li>
+                    <li>Mandarin Chinese (Native)</li>
+                    <li>Cantonese (Intermediate)</li>
                 </ul>
             </div>
         </div>
